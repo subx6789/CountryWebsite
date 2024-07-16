@@ -1,8 +1,54 @@
-# React + Vite
+# REST Countries API Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- View all countries from the API on the homepage
+- Search for a country using an input field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Toggle the color scheme between light and dark mode
 
-Currently, two official plugins are available:
+## Built With
+- React
+- Tailwind CSS
+- API caching and local storage for data persistence
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+**Prerequisites**
+- Node.js and npm installed
+- A code editor (e.g., VSCode)
+
+**Installation**
+- Clone the repository:
+   ```bash
+    git clone https://github.com/subx6789/CountryWebsite.git
+   ```
+
+- Navigate to the project directory:
+   ```bash
+    cd CountryWebsite/country
+   ```
+
+**Install dependencies:**
+   ```bash
+    npm install
+   ```
+
+**Start the development server:**
+   ```bash
+    npm run dev
+   ```
+
+## Working on this project helped improve my skills in:
+- Integrating with third-party APIs
+- Managing state and effects in React
+- Implementing dark mode with Tailwind CSS
+- Using local storage for data persistence
+
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## Acknowledgements
+- Frontend Mentor for the challenge
+- REST Countries API for the country data
